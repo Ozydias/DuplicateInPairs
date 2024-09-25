@@ -1,0 +1,127 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+}
+
+@font-face {
+  font-family: 'YouSheTiBiaoHei';
+  src: url('../fonts/YouSheBiaoTiHei-2.ttf') format('truetype');
+}
+
+body {
+  background-color: #eee;
+}
+
+.content {
+  margin-top: 100px;
+}
+
+.head {
+  display: flex;
+  padding-top: 20px;
+  width: 1920px;
+  height: 120px;
+  background-image: url(./images/head.png);
+}
+
+.head .mark img {
+  margin-left: 20px;
+  width: 100px;
+  height: 100px;
+}
+
+.head ul {
+  display: flex;
+}
+
+ul li:nth-child(1) {
+  margin-left: 375px;
+  margin-right: 50px;
+}
+
+ul li:nth-child(2) {
+  margin-right: 50px;
+}
+
+
+
+ul li a {
+  display: block;
+  margin-top: 10px;
+  margin-left: 50px;
+  width: 130px;
+  height: 70px;
+  border-radius: 10px;
+  text-decoration: none;
+  font-size: 25px;
+  background-color: rgba(255, 255, 255, 0.1);
+  text-align: center;
+  line-height: 70px;
+  font-family: 'YouSheTiBiaoHei', sans-serif;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+  color: #000;
+}
+
+
+
+.item {
+  display: flex;
+  margin: 1% auto;
+  padding: 20px 10px;
+  background-color: #fff;
+  width: 60%;
+  height: 75px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+  border-radius: 10px;
+}
+
+.content .item span:nth-child(1) {
+  margin-right: 20px;
+  padding-top: 10px;
+  width: 40px;
+  height: 60px;
+}
+
+.content .item img {
+  margin-right: 20px;
+  width: 60px;
+  height: 35px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+
+.content .item span:nth-child(3) {
+  margin-right: 20px;
+  padding-top: 10px;
+  width: 200px;
+  height: 60px;
+}
+
+.content .item span:nth-child(4) {
+  margin-right: 25px;
+  margin-left: 150px;
+  padding-top: 10px;
+  width: 100px;
+  height: 60px;
+}
+
+.content .item span:nth-child(5) {
+  margin-right: 25px;
+  padding-top: 10px;
+  width: 100px;
+  height: 60px;
+}
+.content .item span:nth-child(6) {
+  margin-right: 25px;
+  padding-top: 10px;
+  width: 100px;
+  height: 60px;
+}
+
+.content .item span:nth-child(7) {
+  margin-right: 25px;
+  padding-top: 10px;
+  height: 60px;
+}
