@@ -4,7 +4,7 @@
 }
 
 body {
-    background-image: url(./background.jpg);
+    background-image: url(../resource/img/background.jpg);
     background-size: 100%;
     background-attachment: fixed;
     display: flex;
@@ -12,10 +12,13 @@ body {
     align-items: center;
 }
 
+.container {
+    width: 84rem;
+}
+
 .header {
-    width: 1344px;
     height: 60px;
-    background-color: rgba(1, 1, 1, 0.6);
+    background-color: rgba(0, 0, 0, 0.5);
     color: white;
     display: flex;
     justify-content: space-around;
@@ -34,14 +37,15 @@ body {
 .header .item:hover {
     color: green;
     font-size: 40px;
-    border-bottom: 10px solid white ;
+    border-bottom: 10px solid white;
 }
 
-.container {
+
+
+.medals {
     margin-top: 20px;
     width: 1344px;
-    background-color: white;
-    opacity: 0.5;
+    background-color: rgba(255, 255, 255, 0.5);
     text-align: center;
     border-radius: 20px;
 }
